@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using UcusRez.Models;
+
 namespace UcusRez
 {
     public class Program
@@ -8,6 +11,8 @@ namespace UcusRez
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<DbUcus>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddSession();
 
             var app = builder.Build();
 
@@ -25,6 +30,7 @@ namespace UcusRez
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",

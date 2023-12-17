@@ -1,0 +1,649 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\UcusRez.bundle.scp.css",
+      "PackagePath": "staticwebassets\\UcusRez.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web.txt",
+      "PackagePath": "staticwebassets\\web.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\404.html",
+      "PackagePath": "staticwebassets\\web\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\500.html",
+      "PackagePath": "staticwebassets\\web\\500.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\blank-page.html",
+      "PackagePath": "staticwebassets\\web\\blank-page.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\buttons.html",
+      "PackagePath": "staticwebassets\\web\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\charts.html",
+      "PackagePath": "staticwebassets\\web\\charts.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\compose.html",
+      "PackagePath": "staticwebassets\\web\\compose.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\SidebarNav.min.css",
+      "PackagePath": "staticwebassets\\web\\css\\SidebarNav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\animate.css",
+      "PackagePath": "staticwebassets\\web\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\web\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\custom.css",
+      "PackagePath": "staticwebassets\\web\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\export.css",
+      "PackagePath": "staticwebassets\\web\\css\\export.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\web\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\graph.css",
+      "PackagePath": "staticwebassets\\web\\css\\graph.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\jqcandlestick.css",
+      "PackagePath": "staticwebassets\\web\\css\\jqcandlestick.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\monthly.css",
+      "PackagePath": "staticwebassets\\web\\css\\monthly.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\web\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\style.css",
+      "PackagePath": "staticwebassets\\web\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\web\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\web\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\web\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\web\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\forms.html",
+      "PackagePath": "staticwebassets\\web\\forms.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\general.html",
+      "PackagePath": "staticwebassets\\web\\general.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\grids.html",
+      "PackagePath": "staticwebassets\\web\\grids.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\icons.html",
+      "PackagePath": "staticwebassets\\web\\icons.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\a.png",
+      "PackagePath": "staticwebassets\\web\\images\\a.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\i1.png",
+      "PackagePath": "staticwebassets\\web\\images\\i1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\i2.png",
+      "PackagePath": "staticwebassets\\web\\images\\i2.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\i3.png",
+      "PackagePath": "staticwebassets\\web\\images\\i3.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\i4.png",
+      "PackagePath": "staticwebassets\\web\\images\\i4.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\img-sprite.png",
+      "PackagePath": "staticwebassets\\web\\images\\img-sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\img1.png",
+      "PackagePath": "staticwebassets\\web\\images\\img1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\lock.png",
+      "PackagePath": "staticwebassets\\web\\images\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\mail.png",
+      "PackagePath": "staticwebassets\\web\\images\\mail.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\web\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\slider1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\slider2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\slider3.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\slider4.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\slider4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\slider5.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\slider5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\slider6.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\slider6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\slider7.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\slider7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\tick.png",
+      "PackagePath": "staticwebassets\\web\\images\\tick.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\user.png",
+      "PackagePath": "staticwebassets\\web\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\weather.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\weather.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\inbox.html",
+      "PackagePath": "staticwebassets\\web\\inbox.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\index.html",
+      "PackagePath": "staticwebassets\\web\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\Chart.bundle.js",
+      "PackagePath": "staticwebassets\\web\\js\\Chart.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\Chart.js",
+      "PackagePath": "staticwebassets\\web\\js\\Chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\SidebarNav.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\SidebarNav.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\SimpleChart.js",
+      "PackagePath": "staticwebassets\\web\\js\\SimpleChart.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\amcharts.js",
+      "PackagePath": "staticwebassets\\web\\js\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\web\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\chartinator.js",
+      "PackagePath": "staticwebassets\\web\\js\\chartinator.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\classie.js",
+      "PackagePath": "staticwebassets\\web\\js\\classie.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\custom.js",
+      "PackagePath": "staticwebassets\\web\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\export.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\export.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\web\\js\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\images\\lens.svg",
+      "PackagePath": "staticwebassets\\web\\js\\images\\lens.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\index.js",
+      "PackagePath": "staticwebassets\\web\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\index1.js",
+      "PackagePath": "staticwebassets\\web\\js\\index1.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\index2.js",
+      "PackagePath": "staticwebassets\\web\\js\\index2.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\jquery-1.11.1.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery-1.11.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\jquery.jqcandlestick.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery.jqcandlestick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\light.js",
+      "PackagePath": "staticwebassets\\web\\js\\light.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\metisMenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\modernizr.custom.js",
+      "PackagePath": "staticwebassets\\web\\js\\modernizr.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\monthly.js",
+      "PackagePath": "staticwebassets\\web\\js\\monthly.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\web\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\pie-chart.js",
+      "PackagePath": "staticwebassets\\web\\js\\pie-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\web\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\serial.js",
+      "PackagePath": "staticwebassets\\web\\js\\serial.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\utils.js",
+      "PackagePath": "staticwebassets\\web\\js\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\validator.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\validator.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\login.html",
+      "PackagePath": "staticwebassets\\web\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\media.html",
+      "PackagePath": "staticwebassets\\web\\media.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\signup.html",
+      "PackagePath": "staticwebassets\\web\\signup.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\tables.html",
+      "PackagePath": "staticwebassets\\web\\tables.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\typography.html",
+      "PackagePath": "staticwebassets\\web\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\validation.html",
+      "PackagePath": "staticwebassets\\web\\validation.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\w3layouts-License.txt",
+      "PackagePath": "staticwebassets\\web\\w3layouts-License.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\widgets.html",
+      "PackagePath": "staticwebassets\\web\\widgets.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UcusRez.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.UcusRez.props",
+      "PackagePath": "build\\UcusRez.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.UcusRez.props",
+      "PackagePath": "buildMultiTargeting\\UcusRez.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.UcusRez.props",
+      "PackagePath": "buildTransitive\\UcusRez.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
