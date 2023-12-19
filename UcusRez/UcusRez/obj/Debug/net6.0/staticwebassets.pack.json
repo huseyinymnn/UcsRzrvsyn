@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -245,34 +241,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web.txt",
-      "PackagePath": "staticwebassets\\web.txt"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\404.html",
-      "PackagePath": "staticwebassets\\web\\404.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\500.html",
-      "PackagePath": "staticwebassets\\web\\500.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\blank-page.html",
-      "PackagePath": "staticwebassets\\web\\blank-page.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\buttons.html",
-      "PackagePath": "staticwebassets\\web\\buttons.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\charts.html",
-      "PackagePath": "staticwebassets\\web\\charts.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\compose.html",
-      "PackagePath": "staticwebassets\\web\\compose.html"
-    },
-    {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\SidebarNav.min.css",
       "PackagePath": "staticwebassets\\web\\css\\SidebarNav.min.css"
     },
@@ -355,22 +323,6 @@
     {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\fonts\\glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets\\web\\fonts\\glyphicons-halflings-regular.woff2"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\forms.html",
-      "PackagePath": "staticwebassets\\web\\forms.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\general.html",
-      "PackagePath": "staticwebassets\\web\\general.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\grids.html",
-      "PackagePath": "staticwebassets\\web\\grids.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\icons.html",
-      "PackagePath": "staticwebassets\\web\\icons.html"
     },
     {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\1.jpg",
@@ -467,14 +419,6 @@
     {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\images\\weather.jpg",
       "PackagePath": "staticwebassets\\web\\images\\weather.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\inbox.html",
-      "PackagePath": "staticwebassets\\web\\inbox.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\index.html",
-      "PackagePath": "staticwebassets\\web\\index.html"
     },
     {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\Chart.bundle.js",
@@ -595,38 +539,6 @@
     {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\js\\validator.min.js",
       "PackagePath": "staticwebassets\\web\\js\\validator.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\login.html",
-      "PackagePath": "staticwebassets\\web\\login.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\media.html",
-      "PackagePath": "staticwebassets\\web\\media.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\signup.html",
-      "PackagePath": "staticwebassets\\web\\signup.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\tables.html",
-      "PackagePath": "staticwebassets\\web\\tables.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\typography.html",
-      "PackagePath": "staticwebassets\\web\\typography.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\validation.html",
-      "PackagePath": "staticwebassets\\web\\validation.html"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\w3layouts-License.txt",
-      "PackagePath": "staticwebassets\\web\\w3layouts-License.txt"
-    },
-    {
-      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\widgets.html",
-      "PackagePath": "staticwebassets\\web\\widgets.html"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UcusRez.Microsoft.AspNetCore.StaticWebAssets.props",

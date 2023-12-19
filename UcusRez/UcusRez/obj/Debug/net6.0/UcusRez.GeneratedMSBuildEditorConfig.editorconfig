@@ -16,8 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Hüseyin\Desktop\UcusRez\UcusRez
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Admin/Guzergah.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR3V6ZXJnYWguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Admin/GuzergahListele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR3V6ZXJnYWhMaXN0ZWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Admin/Ucak.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVWNhay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Admin/UcakListele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVWNha0xpc3RlbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Home/Index.cshtml]
