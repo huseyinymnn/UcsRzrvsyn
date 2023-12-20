@@ -1,0 +1,47 @@
+﻿@model UcusRez.Models.Guzergah
+@{
+    ViewData["Title"] = "Guzergah";
+    Layout = "~/Views/Shared/AdminPanel.cshtml";
+}
+
+<div id="page-wrapper">
+	<div class="main-page">
+		<h3 class="title1">Güzergah Ekle</h3>
+		<div class="blank-page widget-shadow scroll" id="style-2 div1">
+			<section class="section__container booking__container">
+				<div class="booking__nav">
+					<span>Güzergah Bilgileri</span>
+				</div>
+				<p style="color:red;">@ViewBag.error</p>
+				<p style="color:green;">@ViewBag.correct</p>
+				<form action="Guzergah" method="post">
+					<div class="form__group">
+						<span><i class="ri-flight-takeoff-line"></i></span>
+						<div class="input__content">
+							<p>Kalkış Şehri</p>
+							<div class="input__group">
+								<input type="text" asp-for="KalkisSehri" />
+							</div>
+						</div>
+					</div>
+					
+					<div class="form__group">
+						<span><i class="ri-flight-land-line"></i></span>
+						<div class="input__content">
+							<p>Varış Şehri</p>
+							<div class="input__group">
+								<input type="text" asp-for="VarisSehri" />
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<button class="btn3">Ekle</button>
+				</form>
+			</section>
+		</div>
+	</div>
+</div>
+
+
