@@ -241,6 +241,34 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\open\\css\\login.css",
+      "PackagePath": "staticwebassets\\open\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\open\\css\\register.css",
+      "PackagePath": "staticwebassets\\open\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\open\\images\\layer.png",
+      "PackagePath": "staticwebassets\\open\\images\\layer.png"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\open\\images\\login2.jpg",
+      "PackagePath": "staticwebassets\\open\\images\\login2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\open\\index.html",
+      "PackagePath": "staticwebassets\\open\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\open\\register.html",
+      "PackagePath": "staticwebassets\\open\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\open\\w3layouts-license.txt",
+      "PackagePath": "staticwebassets\\open\\w3layouts-license.txt"
+    },
+    {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\SidebarNav.min.css",
       "PackagePath": "staticwebassets\\web\\css\\SidebarNav.min.css"
     },
