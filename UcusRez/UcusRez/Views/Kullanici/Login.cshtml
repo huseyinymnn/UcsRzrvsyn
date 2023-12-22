@@ -1,4 +1,4 @@
-﻿
+﻿@model UcusRez.Models.Kayit
 @{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_GirisLayout.cshtml";
@@ -14,13 +14,15 @@
 
 					</div>
 					<div class="form-right-inf">
+						<p style="color:red;">@ViewBag.error</p>
+						
 						<form action="Login" method="post" class="signin-form">
 							<div class="forms-gds">
 								<div class="form-input">
-									<input type="email" name="" placeholder="Email" required />
+									<input type="email" asp-for="KayitMail" placeholder="Email" required />
 								</div>
 								<div class="form-input">
-									<input type="password" name="" placeholder="Şifre" required />
+									<input type="password" asp-for="KayitPassword" placeholder="Şifre" required />
 								</div>
 								<div class="form-input"><button class="btn">Giriş Yap</button></div>
 							</div>

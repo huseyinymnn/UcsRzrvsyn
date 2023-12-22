@@ -22,8 +22,6 @@ namespace UcusRez.Models
         [DataType(DataType.Password)]
         [Compare("KayitPassword",ErrorMessage ="Sifreler eşleşmedi!")]
         public string? ConfKayitPassword { get; set; }
-        [Required(ErrorMessage = "Telefon numarası alanı boş bırakılamaz!"), RegularExpression(@"^([0-9]{10})&", ErrorMessage = "Lütfen geçerli bir telefon numarası giriniz!")]
-        [StringLength(10)]
-        public string? KayitPhone { get; set; }
+       
     }
 }
