@@ -17,42 +17,43 @@ namespace UcusRez.Controllers
         {
             return View();
         }
-        [HttpGet]
-        public IActionResult Ucak()
-        {
-            return View(); 
-        }
 
-        [HttpPost]
-        public async Task<IActionResult> Ucak(Ucak ekleUcak)
-        {   //uçak ekleme işlemini gerçekleştiriyor
-            var ucak = new Ucak()
-            { 
-                UcakID=ekleUcak.UcakID,
-                UcakCapacity=ekleUcak.UcakCapacity,
-            };
+		[HttpGet]
+		public IActionResult Ucak()
+		{
+			return View();
+		}
+		[HttpPost]
+		public async Task<IActionResult> Ucak(Ucak ekleUcak)
+		{
+			
+			var ucak = new Ucak()
+			{
+				UcakID = ekleUcak.UcakID,
+				UcakCapacity = ekleUcak.UcakCapacity,
+			};
 
-            await _dbucus.Ucaks.AddAsync(ucak);
-            await _dbucus.AddRangeAsync();
-            ViewBag.correct = "Uçak ekleme işlemi gerçekleştirildi!";
+			await _dbucus.Ucaks.AddAsync(ucak);
+			await _dbucus.SaveChangesAsync();
+			ViewBag.correct = "Uçak ekleme işlemi başarılı!";
+			return View("Ucak");
 
-            return View("Ucak");
-        }
+		}
 
-        [HttpGet]
-        public async Task<IActionResult> UcakListele()
-        {
-            //uçak listeleme işlemini gerçekleştiriyor.
+		[HttpGet]
+		public async Task<IActionResult> UcakListele()
+		{
+			var ucaklar = await _dbucus.Ucaks.ToListAsync();
+			return View(ucaklar);
+		}
 
-            var ucaklar = await _dbucus.Ucaks.ToListAsync();
-            return View(ucaklar);
-        }
-        [HttpGet]
+		[HttpGet]
         public IActionResult Ucus()
         {
             return View();
         }
 		
+
         [HttpPost]
 		public async Task<IActionResult> Ucus(Ucus ekleUcus, int ucakID, int guzergahID)
 		{
@@ -64,7 +65,7 @@ namespace UcusRez.Controllers
                 return View();
             }
 
-           
+        
 
             var ucus = new Ucus() 
             {
@@ -128,9 +129,11 @@ namespace UcusRez.Controllers
             return View();
         }
 
-        public IActionResult Kullanicilar()
-        {
-            return View();
+        [HttpGet]
+        public async Task<IActionResult> Kullanicilar()
+        {   
+            var kullanicilar=await _dbucus.Kayits.ToListAsync();
+            return View(kullanicilar);
         }
 
     }
