@@ -1,16 +1,17 @@
-﻿@model List<UcusRez.Models.Ucak>
+﻿@model List<UcusRez.Models.Kayit>
 @{
-    ViewData["Title"] = "UcakListele";
+    ViewData["Title"] = "Kullanicilar";
     Layout = "~/Views/Shared/AdminPanel.cshtml";
 }
 
+
 <div id="page-wrapper">
 	<div class="main-page">
-		<h3 class="title1">Tüm Uçaklar</h3>
+		<h3 class="title1">Kayıtlı Kullanıcılar</h3>
 		<div class="blank-page widget-shadow scroll" id="style-2 div1">
 			<section class="section__container booking__container">
 				<div class="booking__nav">
-					<span>Uçak Bilgileri</span>
+					<span>Kullanıcı Bilgileri</span>
 				</div>
 				<style>
 					table {
@@ -40,19 +41,25 @@
 				<table border="1">
 					<thead>
 						<tr>
-							<td>Uçak No</td>
-							<td>Uçak Kapasitesi</td>
+							<td>Kullanıcı No</td>
+							<td>İsim</td>
+							<td>Soyisim</td>
+							<td>Email</td>
+							<td>Şifre</td>
+							
 						</tr>
 					</thead>
 					<tbody>
 						@if (Model != null)
 						{
-							@foreach (var ucaklar in Model)
+							@foreach (var kullanici in Model)
 							{
 								<tr>
-									<td>@ucaklar.UcakID</td>
-									<td>@ucaklar.UcakCapacity</td>
-									
+									<td>@kullanici.KayitID</td>
+									<td>@kullanici.KayitName</td>
+									<td>@kullanici.KayitSurname</td>
+									<td>@kullanici.KayitMail</td>
+									<td>@kullanici.KayitPassword</td>
 								</tr>
 							}
 						}
@@ -62,3 +69,4 @@
 		</div>
 	</div>
 </div>
+

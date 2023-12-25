@@ -9,9 +9,10 @@
     <View_SelectedScaffolderID>RazorViewScaffolder</View_SelectedScaffolderID>
     <View_SelectedScaffolderCategoryPath>root/Common/MVC/View</View_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ViewDialogWidth>650,4</WebStackScaffolding_ViewDialogWidth>
-    <WebStackScaffolding_LayoutPageFile>~/Views/Shared/_GirisLayout.cshtml</WebStackScaffolding_LayoutPageFile>
+    <WebStackScaffolding_LayoutPageFile>~/Views/Shared/AdminPanel.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_IsLayoutPageSelected>True</WebStackScaffolding_IsLayoutPageSelected>
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
+    <WebStackScaffolding_DbContextTypeFullName>UcusRez.Models.DbUcus</WebStackScaffolding_DbContextTypeFullName>
   </PropertyGroup>
 </Project>
