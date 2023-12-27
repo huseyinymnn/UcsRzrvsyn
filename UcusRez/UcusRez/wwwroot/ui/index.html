@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav>
+    <div class="nav__logo">Uçacaksın</div>
+   
+    <div class="btn-container">
+        <button class="btn" onclick="redirectToLoginPage('User/Login')">Giriş Yap</button>
+        <button class="btn2" onclick="redirectToLoginPage('User/Register')">Kaydol</button>
+    </div>
+
+    <script>
+        function redirectToLoginPage(page) {
+            window.location.href = page;
+        }
+    </script>
+
+    <style>
+        .btn-container {
+            display: flex;
+        }
+
+        .btn {
+            margin-right: 10px; /* İsteğe bağlı: butonlar arasında boşluk bırakmak için */
+        }
+    </style>
+</nav>
+
+
+
+    <section class="section__container booking__container">
+        <div class="booking__nav">
+            <span>Ekonomi Sınıfı</span>
+        </div>
+        <form>
+            <div class="form__group">
+                <span><i class="ri-flight-takeoff-line"></i></span>
+                <div class="input__content">
+                    <p>Nereden</p>
+                    <div class="input__group">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+            <div class="form__group">
+                <span><i class="ri-flight-land-line"></i></span>
+                <div class="input__content">
+                    <p>Nereye</p>
+                    <div class="input__group">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+            <div class="form__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div class="input__content">
+                    <p>Gidiş Tarihi</p>
+                    <div class="input__group">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+           
+            <button class="btn3"><i class="ri-search-line"></i></button>
+        </form>
+    </section>
+
+    <section class="section__container plan__container">
+        <p class="subheader">Seyahat Desteği</p>
+        <h2 class="section__header">Yolculuğunu güvenle planla</h2>
+        <p class="description">
+            Rezervasyonlarınız ve seyahat planlarınızla ilgili bize ulaşın ve yolculuğunuz boyunca sizi nelerin bekleyeceğini görün.
+        </p>
+        <div class="plan__grid">
+            <div class="plan__content">
+                <span class="number">01</span>
+                <h4>Dubai için Seyahat Gereksinimleri</h4>
+                <p>
+                    Bu güzel şehirde güzel zaman geçirmek için gerekli seyahat gereksinimleriyle ilgili bilgi edinin.
+                </p>
+                <span class="number">02</span>
+                <h4>Sağlık Sigortası</h4>
+                <p>
+                    Güvenli bir yolculuk için sağlık sigortası yaptırmayı unutmayın.
+                </p>
+                <span class="number">03</span>
+                <h4>Destinasyonlara göre seyahat gereksinimleri.</h4>
+                <p>
+                    Daha fazla bilgi için bizi takip edin.
+                </p>
+            </div>
+            <div class="plan__image">
+                <img src="assets/plan-1.jpg" alt="plan" />
+                <img src="assets/plan-2.jpg" alt="plan" />
+                <img src="assets/plan-3.jpg" alt="plan" />
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h3>UÇACAKSIN</h3>
+                <p>
+                    Aradığınız destinasyona en uygun fiyata, avantajlı paketler ile
+					dünyanın dört bir yanına sizleri uçuruyoruz!
+                </p>
+            </div>
+            <div class="footer__col">
+                <h4>İletişim</h4>
+                <p>+90 (539) 446 1775</p>
+                <p>+90 (506) 365 5797</p>
+                <p>huseyin.yaman2@ogr.sakarya.edu.tr</p>
+                <p>mefe.goktepe@ogr.sakarya.edu.tr</p>
+            </div>
+        </div>
+        <div class="section__container footer__bar">
+            <p>Copyright © Hüseyin Yaman & Efe Göktepe</p>
+           
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
