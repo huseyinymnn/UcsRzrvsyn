@@ -257,6 +257,34 @@
       "PackagePath": "staticwebassets\\open\\images\\login2.jpg"
     },
     {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\ui\\README.md",
+      "PackagePath": "staticwebassets\\ui\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\ui\\assets\\header.jpg",
+      "PackagePath": "staticwebassets\\ui\\assets\\header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\ui\\assets\\plan-1.jpg",
+      "PackagePath": "staticwebassets\\ui\\assets\\plan-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\ui\\assets\\plan-2.jpg",
+      "PackagePath": "staticwebassets\\ui\\assets\\plan-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\ui\\assets\\plan-3.jpg",
+      "PackagePath": "staticwebassets\\ui\\assets\\plan-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\ui\\index.html",
+      "PackagePath": "staticwebassets\\ui\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\ui\\styles.css",
+      "PackagePath": "staticwebassets\\ui\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\Hüseyin\\Desktop\\UcusRez\\UcusRez\\wwwroot\\web\\css\\SidebarNav.min.css",
       "PackagePath": "staticwebassets\\web\\css\\SidebarNav.min.css"
     },
