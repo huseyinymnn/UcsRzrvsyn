@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVWN1c0xpc3RlbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Anasayfa/Hosgeldin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcSG9zZ2VsZGluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Anasayfa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -82,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Shared/_GirisLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HaXJpc0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Shared/_HosgeldinLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib3NnZWxkaW5MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hüseyin/Desktop/UcusRez/UcusRez/Views/Shared/_ValidationScriptsPartial.cshtml]

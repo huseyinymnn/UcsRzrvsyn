@@ -11,6 +11,8 @@ namespace UcusRez.Controllers
 
 		public IActionResult Hosgeldin()
 		{
+			var isim = HttpContext.Session.GetString("username");
+			ViewBag.username = isim;
 			return View();
 		}
 	}

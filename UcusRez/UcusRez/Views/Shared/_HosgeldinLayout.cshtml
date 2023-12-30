@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="~/ui/styles.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav__logo">Sakura Airlines</div>
+        <ul class="nav__links">
+            <li class="link"><a href="#">Anasayfa</a></li>
+            <li class="link"><a href="#">Hakkımızda</a></li>
+            <li class="link"><a href="#">Teklifler</a></li>
+            <li class="link"><a href="#">Koltuklar</a></li>
+            <li class="link"><a href="#">Destinasyonlar</a></li>
+        </ul>
+        <p style="color: white;">Hoş Geldiniz, <br /> @ViewBag.username</p>
+        @if (ViewBag.username != "")
+        {
+            <button class="btn2" onclick="redirectToHomePage('/Anasayfa/Index')">Çıkış Yap</button>
+        }
+        <script>
+            function redirectToHomePage(page) {
+                window.location.href = page;
+            }
+        </script>
+    </nav>
+    <header class="section__container header__container">
+        <h1 class="section__header">Hayat Çok Kısa<br />Dünya Çok Geniş</h1>
+    </header>
+
+    <section class="section__container booking__container">
+        <div class="booking__nav">
+            <span>Ekonomi Sınıfı</span>
+        </div>
+        <form>
+            <div class="form__group">
+                <span><i class="ri-flight-takeoff-line"></i></span>
+                <div class="input__content">
+                    <p>Nereden</p>
+                    <div class="input__group">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+            <div class="form__group">
+                <span><i class="ri-flight-land-line"></i></span>
+                <div class="input__content">
+                    <p>Nereye</p>
+                    <div class="input__group">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+            <div class="form__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div class="input__content">
+                    <p>Gidiş Tarihi</p>
+                    <div class="input__group">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+            <div class="form__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div class="input__content">
+                    <p>Dönüş Tarihi</p>
+                    <div class="input__group">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+            <button class="btn3"><i class="ri-search-line"></i></button>
+        </form>
+    </section>
+
+    <section class="section__container plan__container">
+        <p class="subheader">Seyahat Desteği</p>
+        <h2 class="section__header">Yolculuğunu güvenle planla</h2>
+        <p class="description">
+            Rezervasyonlarınız ve seyahat planlarınızla ilgili bize ulaşın ve yolculuğunuz boyunca sizi nelerin bekleyeceğini görün.
+        </p>
+        <div class="plan__grid">
+            <div class="plan__content">
+                <span class="number">01</span>
+                <h4>Dubai için Seyahat Gereksinimleri</h4>
+                <p>
+                    Bu güzel şehirde güzel zaman geçirmek için gerekli seyahat gereksinimleriyle ilgili bilgi edinin.
+                </p>
+                <span class="number">02</span>
+                <h4>Sağlık Sigortası</h4>
+                <p>
+                    Güvenli bir yolculuk için sağlık sigortası yaptırmayı unutmayın.
+                </p>
+                <span class="number">03</span>
+                <h4>Destinasyonlara göre seyahat gereksinimleri.</h4>
+                <p>
+                    Daha fazla bilgi için bizi takip edin.
+                </p>
+            </div>
+            <div class="plan__image">
+                <img src="~/ui/assets/plan-1.jpg" alt="plan" />
+                <img src="~/ui/assets/plan-2.jpg" alt="plan" />
+                <img src="~/ui/assets/plan-3.jpg" alt="plan" />
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h3>Sakura Airlines</h3>
+                <p>
+                    Güleryüzlü ekşpler ve son model uçaklarla,
+                    Güvenli, konforlu ve unutulmaz deneyimler sağlıyoruz.
+                </p>
+            </div>
+            <div class="footer__col">
+                <h4>İletişim</h4>
+                <p>+90 (552) 802 5995</p>
+                <p>+90 (544) 426 2669</p>
+                <p>nihad.asgarov@ogr.sakarya.edu.tr</p>
+                <p>eren.dinc@ogr.sakarya.edu.tr</p>
+            </div>
+        </div>
+        <div class="section__container footer__bar">
+            <p>Copyright © Designed by Nihad Asgarov & Eren Dinç</p>
+            <div class="socials">
+                <span><i class="ri-facebook-fill"></i></span>
+                <span><i class="ri-twitter-fill"></i></span>
+                <span><i class="ri-instagram-line"></i></span>
+                <span><i class="ri-youtube-fill"></i></span>
+            </div>
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
