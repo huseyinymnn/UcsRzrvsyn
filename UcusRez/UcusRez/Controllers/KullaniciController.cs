@@ -24,10 +24,16 @@ namespace UcusRez.Controllers
 
 			if (kontrol!=null) {
 
-				return View("Welcome");
-			}
+				
+                HttpContext.Session.SetString("username", kontrol.KayitName + " " + kontrol.KayitSurname);
+                var isim = HttpContext.Session.GetString("username");
+                ViewBag.username = isim;
+                return RedirectToAction("Hosgeldin", "Anasayfa");
+            }
+            
 
-			ViewBag.error = "Kullanıcı bulunamadı!";
+
+            ViewBag.error = "Kullanıcı bulunamadı!";
 			return View();
 		}
 
