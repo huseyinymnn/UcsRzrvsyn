@@ -126,9 +126,11 @@ namespace UcusRez.Controllers
             return View(guzergahlar);
         }
 
-        public IActionResult Rezervasyon()
+        [HttpGet]
+        public async Task<IActionResult> Rezervasyon()
         {
-            return View();
+            var biletler = await _dbucus.Bilets.ToListAsync();
+            return View(biletler);
         }
 
         [HttpGet]

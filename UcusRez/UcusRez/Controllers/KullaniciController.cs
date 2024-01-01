@@ -27,7 +27,7 @@ namespace UcusRez.Controllers
             var kontrol = _dbucus.Kayits.Where(x => x.KayitMail == ekleKayit.KayitMail && x.KayitPassword == ekleKayit.KayitPassword).FirstOrDefault();
             if (kontrol != null)
             {
-                if (kontrol.KayitMail.ToLower() == "b201210034@gmail.com" || kontrol.KayitMail.ToLower() == "B211210052@gmail.com")
+                if (kontrol.KayitMail.ToLower() == "b201210034@gmail.com" || kontrol.KayitMail.ToLower() == "b211210052@gmail.com")
                 {
                     kontrol.Role = "Admin";
                 }
