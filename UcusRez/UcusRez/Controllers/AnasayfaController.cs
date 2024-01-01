@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace UcusRez.Controllers
 {
@@ -8,8 +9,8 @@ namespace UcusRez.Controllers
 		{
 			return View();
 		}
-
-		public IActionResult Hosgeldin()
+		[Authorize(Roles ="Ui")]
+        public IActionResult Hosgeldin()
 		{
 			var isim = HttpContext.Session.GetString("username");
 			ViewBag.username = isim;

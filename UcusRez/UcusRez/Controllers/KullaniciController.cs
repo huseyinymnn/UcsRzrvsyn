@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using UcusRez.Models;
 
 namespace UcusRez.Controllers
@@ -18,23 +21,48 @@ namespace UcusRez.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult Login(Kayit ekleKayit)
+		public async Task<IActionResult> Login(Kayit ekleKayit)
 		{
-			var kontrol = _dbucus.Kayits.Where(x => x.KayitMail == ekleKayit.KayitMail && x.KayitPassword == ekleKayit.KayitPassword).FirstOrDefault();
+            
+            var kontrol = _dbucus.Kayits.Where(x => x.KayitMail == ekleKayit.KayitMail && x.KayitPassword == ekleKayit.KayitPassword).FirstOrDefault();
+            if (kontrol != null)
+            {
+                if (kontrol.KayitMail.ToLower() == "b201210034@gmail.com" || kontrol.KayitMail.ToLower() == "B211210052@gmail.com")
+                {
+                    kontrol.Role = "Admin";
+                }
+                else
+                {
+                    kontrol.Role = "Ui";
+                }
+                var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Name, kontrol.KayitName + " " + kontrol.KayitSurname),
+        new Claim(ClaimTypes.Role, "Ui"),
+        new Claim(ClaimTypes.Role, "Admin"),
+    };
 
-			if (kontrol!=null) {
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var authProperties = new AuthenticationProperties();
 
-				
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity), authProperties);
+
                 HttpContext.Session.SetString("username", kontrol.KayitName + " " + kontrol.KayitSurname);
                 var isim = HttpContext.Session.GetString("username");
                 ViewBag.username = isim;
-                return RedirectToAction("Hosgeldin", "Anasayfa");
+
+                if (kontrol.Role == "Ui")
+                {
+                    return RedirectToAction("Hosgeldin", "Anasayfa");
+                }
+                else if (kontrol.Role == "Admin")
+                {
+                    return RedirectToAction("Index", "Admin");
+                }
             }
-            
-
-
-            ViewBag.error = "Kullanıcı bulunamadı!";
-			return View();
+            ViewBag.error = "Kayıtlı kullanıcı bulunamadı!";
+            return View();
 		}
 
 		[HttpGet]

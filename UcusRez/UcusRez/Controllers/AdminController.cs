@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UcusRez.Models;
 
 namespace UcusRez.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class AdminController : Controller
     {
         private readonly DbUcus _dbucus;
