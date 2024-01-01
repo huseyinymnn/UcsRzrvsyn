@@ -7,14 +7,27 @@ namespace UcusRez.Models
     public class Bilet
     {
         [Key]
-        public int Id { get; set; } 
-        public int KoltukNumarasi { get; set; }
-        [ForeignKey("Yolcu")]
-        public int YolcuID {  get; set; }
-        [ForeignKey("Ucus")]
-        public int UcusID { get; set; }
+        public int BiletId { get; set; }
+
+        public string? YolcuAd { get; set; }
+       
+        public string? YolcuSoyad { get; set; }
         
-        public Ucus? Ucus { get; set; }
-        public Yolcu? Yolcu { get; set; }   
+        public string? YolcuCinsiyet { get; set; }
+        
+        public string? YolcuPasaport { get; set; }
+        
+        public string? YolcuDogumTarihi { get; set; }
+        
+        public string? YolcuMail { get; set; }
+        
+        public string? KalkisSehri { get; set; }
+        
+        public string? VarisSehri { get; set; }
+        
+        public string? KalkisTarihi { get; set; }
+
+        public int? KoltukNumarasi { get; set; }
+        
     }
 }

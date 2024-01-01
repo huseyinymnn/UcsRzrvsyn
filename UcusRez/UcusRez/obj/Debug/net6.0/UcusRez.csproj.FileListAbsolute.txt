@@ -274,3 +274,10 @@ C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\refint\UcusRez.dll
 C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\UcusRez.pdb
 C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\UcusRez.genruntimeconfig.cache
 C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\ref\UcusRez.dll
+C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\bin\Debug\net6.0\en-US\UcusRez.resources.dll
+C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\bin\Debug\net6.0\tr-TR\UcusRez.resources.dll
+C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\UcusRez.Resources.SharedResource.en-US.resources
+C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\UcusRez.Resources.SharedResource.tr-TR.resources
+C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\UcusRez.csproj.GenerateResource.cache
+C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\en-US\UcusRez.resources.dll
+C:\Users\Hüseyin\Desktop\UcusRez\UcusRez\obj\Debug\net6.0\tr-TR\UcusRez.resources.dll

@@ -22,7 +22,7 @@ namespace UcusRez.Models
         public DbSet<Kayit> Kayits { get; set; }
         public DbSet<Ucak> Ucaks { get; set; }
         public DbSet<Ucus> Ucuss { get; set; }
-        public DbSet<Yolcu> Yolcus { get; set; }
+        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

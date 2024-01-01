@@ -18,6 +18,14 @@
         },
         "runtime": {
           "UcusRez.dll": {}
+        },
+        "resources": {
+          "en-US/UcusRez.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/UcusRez.resources.dll": {
+            "locale": "tr-TR"
+          }
         }
       },
       "Azure.Core/1.25.0": {

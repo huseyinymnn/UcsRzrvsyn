@@ -13,16 +13,27 @@
     <div class="nav__logo">Uçacaksın</div>
    
     <div class="btn-container">
-        <button class="btn" onclick="redirectToLoginPage('Kullanici/Login')">Giriş Yap</button>
-        <button class="btn2" onclick="redirectToLoginPage('Kullanici/Register')">Kaydol</button>
+            <button class="btn" onclick="redirectToLoginPage('Kullanici/Login')">@_localization.Getkey("Giriş Yap").Value</button>
+            <button class="btn2" onclick="redirectToLoginPage('Kullanici/Register')">@_localization.Getkey("Kaydol").Value</button>
     </div>
+
+        <div>
+            <ul>
+                <li>
+                    <a asp-controller="Anasayfa" asp-action="ChangeLanguage" asp-route-culture="en-US"><i class="flag-icon flag-icon-gb"></i>En</a>
+                </li>
+                <li>
+                    <a asp-controller="Anasayfa" asp-action="ChangeLanguage" asp-route-culture="tr-TR"><i class="flag-icon flag-icon-gb"></i>Tr</a>
+                </li>
+            </ul>
+        </div>
 
     <script>
         function redirectToLoginPage(page) {
             window.location.href = page;
         }
     </script>
-
+    
     <style>
         .btn-container {
             display: flex;
@@ -35,66 +46,26 @@
 </nav>
 
 
-
-    <section class="section__container booking__container">
-        <div class="booking__nav">
-            <span>Ekonomi Sınıfı</span>
-        </div>
-        <form>
-            <div class="form__group">
-                <span><i class="ri-flight-takeoff-line"></i></span>
-                <div class="input__content">
-                    <p>Nereden</p>
-                    <div class="input__group">
-                        <input type="text" />
-                    </div>
-                </div>
-            </div>
-            <div class="form__group">
-                <span><i class="ri-flight-land-line"></i></span>
-                <div class="input__content">
-                    <p>Nereye</p>
-                    <div class="input__group">
-                        <input type="text" />
-                    </div>
-                </div>
-            </div>
-            <div class="form__group">
-                <span><i class="ri-calendar-line"></i></span>
-                <div class="input__content">
-                    <p>Gidiş Tarihi</p>
-                    <div class="input__group">
-                        <input type="text" />
-                    </div>
-                </div>
-            </div>
-           
-            <button class="btn3"><i class="ri-search-line"></i></button>
-        </form>
-    </section>
-
     <section class="section__container plan__container">
-        <p class="subheader">Seyahat Desteği</p>
-        <h2 class="section__header">Yolculuğunu güvenle planla</h2>
-        <p class="description">
-            Rezervasyonlarınız ve seyahat planlarınızla ilgili bize ulaşın ve yolculuğunuz boyunca sizi nelerin bekleyeceğini görün.
-        </p>
+        
+        <h2 class="section__header">@_localization.Getkey("Uçak bileti satın almak için neden Uçacaksın kullanmalıyım?").Value</h2>
         <div class="plan__grid">
             <div class="plan__content">
                 <span class="number">01</span>
-                <h4>Dubai için Seyahat Gereksinimleri</h4>
+                <h4> @_localization.Getkey("Seyahatlerinizi Yönetin").Value </h4>
                 <p>
-                    Bu güzel şehirde güzel zaman geçirmek için gerekli seyahat gereksinimleriyle ilgili bilgi edinin.
+                    @_localization.Getkey("Tüm rezerve ettiğiniz uçuşları ve satın aldığınız uçak biletlerini tek bir yerden takip edip,yönetebilirsiniz.").Value
                 </p>
                 <span class="number">02</span>
-                <h4>Sağlık Sigortası</h4>
+                <h4> @_localization.Getkey("Güvenle Alın").Value </h4>
                 <p>
-                    Güvenli bir yolculuk için sağlık sigortası yaptırmayı unutmayın.
+                   @_localization.Getkey("Tüm ödeme işlemleriniz firmamız tarafından güvence altındadır.").Value
                 </p>
                 <span class="number">03</span>
-                <h4>Destinasyonlara göre seyahat gereksinimleri.</h4>
+                <h4>
+                    @_localization.Getkey("Müşteri Hizmetleri").Value</h4>
                 <p>
-                    Daha fazla bilgi için bizi takip edin.
+                    @_localization.Getkey("Tüm sorularınız, uçak bileti değişikliği, iptal ve uçuş durumunuzu takip için daima yanınızdayız.").Value
                 </p>
             </div>
             <div class="plan__image">
@@ -109,8 +80,7 @@
             <div class="footer__col">
                 <h3>UÇACAKSIN</h3>
                 <p>
-                    Aradığınız destinasyona en uygun fiyata, avantajlı paketler ile
-					dünyanın dört bir yanına sizleri uçuruyoruz!
+                    @_localization.Getkey("Aradığınız destinasyona en uygun fiyata, avantajlı paketler ile dünyanın dört bir yanına sizleri uçuruyoruz!").Value
                 </p>
             </div>
             <div class="footer__col">
@@ -118,11 +88,11 @@
                 <p>+90 (539) 446 1775</p>
                 <p>+90 (506) 365 5797</p>
                 <p>huseyin.yaman2@ogr.sakarya.edu.tr</p>
-                <p>mefe.goktepe@ogr.sakarya.edu.tr</p>
+                <p>efe.goktepe@org.sakarya.edu.tr</p>
             </div>
         </div>
         <div class="section__container footer__bar">
-            <p>Copyright © Hüseyin Yaman & Efe Göktepe</p>
+            <p>Copyright © Hüseyin Yaman & Mehmet Efe Göktepe</p>
            
             <div>
                 @RenderBody()
