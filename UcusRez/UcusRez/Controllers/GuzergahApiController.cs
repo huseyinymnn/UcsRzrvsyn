@@ -8,11 +8,11 @@ namespace UcusRez.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UcakApiController : ControllerBase
+    public class GuzergahApiController : ControllerBase
     {
-        private readonly  DbUcus _dbUcus; // Replace YourDbContext with your actual DbContext type
+        private readonly DbUcus _dbUcus; // Replace YourDbContext with your actual DbContext type
 
-        public UcakApiController(DbUcus context)
+        public GuzergahApiController(DbUcus context)
         {
             _dbUcus = context;
         }
@@ -21,34 +21,34 @@ namespace UcusRez.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var ucaklar = _dbUcus.Ucaks.ToList();
-            return Ok(ucaklar);
+            var guzergahlar = _dbUcus.Guzergahs.ToList();
+            return Ok(guzergahlar);
         }
 
         // GET api/<AircraftApiController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var ucak = _dbUcus.Ucaks.Find(id);
+            var guzergah = _dbUcus.Guzergahs.Find(id);
 
-            if (ucak == null)
+            if (guzergah == null)
             {
                 return NotFound();
             }
 
-            return Ok(ucak);
+            return Ok(guzergah);
         }
 
         // POST api/<AircraftApiController>
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Ucak ucak)
+        public async Task<IActionResult> Post([FromBody] Guzergah guzergah)
         {
             if (ModelState.IsValid)
             {
-                await _dbUcus.Ucaks.AddAsync(ucak);
+                await _dbUcus.Guzergahs.AddAsync(guzergah);
                 await _dbUcus.SaveChangesAsync();
 
-                return CreatedAtAction(nameof(Get), new { id = ucak.UcakID }, ucak);
+                return CreatedAtAction(nameof(Get), new { id = guzergah.GuzergahID }, guzergah);
             }
             else
             {
@@ -58,14 +58,14 @@ namespace UcusRez.Controllers
 
         // PUT api/<AircraftApiController>/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Ucak guncellenmisUcak)
+        public async Task<IActionResult> Put(int id, [FromBody] Guzergah guncellenmisGuzergah)
         {
-            if (id != guncellenmisUcak.UcakID)
+            if (id != guncellenmisGuzergah.GuzergahID)
             {
                 return BadRequest();
             }
 
-            _dbUcus.Entry(guncellenmisUcak).State = EntityState.Modified;
+            _dbUcus.Entry(guncellenmisGuzergah).State = EntityState.Modified;
 
             try
             {
@@ -73,7 +73,7 @@ namespace UcusRez.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UcakVarMi(id))
+                if (!GuzergahVarMi(id))
                 {
                     return NotFound();
                 }
@@ -90,22 +90,22 @@ namespace UcusRez.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var ucak = await _dbUcus.Ucaks.FindAsync(id);
+            var guzergah = await _dbUcus.Guzergahs.FindAsync(id);
 
-            if (ucak == null)
+            if (guzergah == null)
             {
                 return NotFound();
             }
 
-            _dbUcus.Ucaks.Remove(ucak);
+            _dbUcus.Guzergahs.Remove(guzergah);
             await _dbUcus.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool UcakVarMi(int id)
+        private bool GuzergahVarMi(int id)
         {
-            return _dbUcus.Ucaks.Any(e => e.UcakID == id);
+            return _dbUcus.Guzergahs.Any(e => e.GuzergahID == id);
         }
     }
 }
