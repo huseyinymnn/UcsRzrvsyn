@@ -22,6 +22,6 @@ namespace UcusRez.Models
         [DataType(DataType.Password)]
         [Compare("KayitPassword",ErrorMessage ="Sifreler eşleşmedi!")]
         public string? ConfKayitPassword { get; set; }
-       
+        public string? Role { get; internal set; }
     }
 }
