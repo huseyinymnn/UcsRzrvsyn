@@ -8,11 +8,11 @@ namespace UcusRez.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UcakApiController : ControllerBase
+    public class KullaniciApiController : ControllerBase
     {
-        private readonly  DbUcus _dbUcus; // Replace YourDbContext with your actual DbContext type
+        private readonly DbUcus _dbUcus; // Replace YourDbContext with your actual DbContext type
 
-        public UcakApiController(DbUcus context)
+        public KullaniciApiController(DbUcus context)
         {
             _dbUcus = context;
         }
@@ -21,22 +21,22 @@ namespace UcusRez.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var ucaklar = _dbUcus.Ucaks.ToList();
-            return Ok(ucaklar);
+            var kullanicilar = _dbUcus.Kayits.ToList();
+            return Ok(kullanicilar);
         }
 
-        // GET api/<AircraftApiController>/5
+
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var ucak = _dbUcus.Ucaks.Find(id);
+            var kullanici = _dbUcus.Ucaks.Find(id);
 
-            if (ucak == null)
+            if (kullanici == null)
             {
                 return NotFound();
             }
 
-            return Ok(ucak);
+            return Ok(kullanici);
         }
 
         // POST api/<AircraftApiController>
@@ -73,7 +73,7 @@ namespace UcusRez.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UcakVarMi(id))
+                if (!KullaniciVarMi(id))
                 {
                     return NotFound();
                 }
@@ -90,22 +90,23 @@ namespace UcusRez.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var ucak = await _dbUcus.Ucaks.FindAsync(id);
+            var kullanici = await _dbUcus.Kayits.FindAsync(id);
 
-            if (ucak == null)
+            if (kullanici == null)
             {
                 return NotFound();
             }
 
-            _dbUcus.Ucaks.Remove(ucak);
+            _dbUcus.Kayits.Remove(kullanici);
             await _dbUcus.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool UcakVarMi(int id)
+        private bool KullaniciVarMi(int id)
         {
-            return _dbUcus.Ucaks.Any(e => e.UcakID == id);
+            return _dbUcus.Kayits.Any(e => e.KayitID == id);
         }
+
     }
 }
